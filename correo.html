@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Correo Electrónico</title>
+    <link rel="stylesheet" href="stylescorreo.css">
+</head>
+<body>
+    <header>
+        <h1>Registrar Correo Electrónico</h1>
+    </header>
+    <div id="emailForm">
+        <form id="formEmail" onsubmit="return validateEmail()">
+            <label for="email">Ingrese su correo electrónico:</label>
+            <input type="text" id="email" name="email" required>
+            <button type="submit" class="button">Registrar</button>
+        </form>
+        <p id="message"></p>
+        <div id="message"></div>
+        <img id="emailIcon" style="display: none;"> <!-- Imagen oculta inicialmente -->
+        
+    </div>
+ 
+    <script src="scripts.js"></script>
+    <button class="home-button" onclick="location.href='index.html'">Home </button>
+</body>
+</html>
