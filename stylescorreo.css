@@ -1,0 +1,105 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #4c4f58;
+}
+
+header {
+    background-color: #4f1b1b;
+    color: white;
+    padding: 20px;
+}
+
+header h1, header h2 {
+    margin: 0;
+    color: aliceblue;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #9e1452;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+#emailForm {
+    margin-top: 20px;
+}
+
+#emailForm form {
+    display: inline-block;
+    text-align: left;
+    color: aliceblue;
+}
+
+#emailForm label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#emailForm input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#emailForm button {
+    width: 100%;
+}
+
+#message {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.home-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f39c12;
+    color: #121212;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+/* Estilo para el mensaje */
+#message {
+    margin-top: 10px; /* Espacio encima del mensaje */
+}
+
+/* Estilo para la imagen de correo */
+#emailIcon {
+    width: 50px; /* Ajustar el ancho según el tamaño de tus imágenes */
+    height: 50px; /* Ajustar la altura según el tamaño de tus imágenes */
+    margin-top: 10px; /* Espacio encima de la imagen */
+}
+/* Estilo para la imagen de correo */
+#emailIcon {
+    width: 150px; /* Ancho de la imagen */
+    height: 150px; /* Altura de la imagen */
+    margin-top: 10px; /* Espacio encima de la imagen */
+    display: block; /* Asegúrate de que la imagen se muestra como un bloque */
+    margin-left: auto; /* Centra la imagen horizontalmente */
+    margin-right: auto; /* Centra la imagen horizontalmente */
+}
